@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /about/
 title: "Welcome to Hengchao Chen's Homepage! (陈恒超)"
 excerpt: "About me"
 author_profile: true

@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /bio/
 title: "Biography"
 author_profile: true

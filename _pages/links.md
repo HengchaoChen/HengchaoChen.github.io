@@ -1,3 +1,13 @@
+---
+permalink: /
+title: "Some Useful Links"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /links/
+  - /links.html
+---
+
 * [School of Mathematical Sciences, USTC](http://math.ustc.edu.cn/)
 * [LibGen](http://libgen.rs/)  
 * [Arxiv](https://arxiv.org/)

@@ -16,7 +16,7 @@ Education
 
 Publication
 ======
-* Hope I can have one ASAP.
+* None.
 
 Award
 =====

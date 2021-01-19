@@ -14,10 +14,10 @@ Education
 * B.S. in Mathematics and Applied Mathematics, USTC, 2020
 * Ph.D. in Statistics, Zoom University, 2024 (expected)
 
-Publication
+Publications
 ======
 * None.
 
-Award
+Awards
 =====
 * Guo Yonghuai Scholarship, USTC, 2020 

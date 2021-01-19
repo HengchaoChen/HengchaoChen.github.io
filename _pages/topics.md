@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /topic/
 title: "Topics"
 author_profile: true

@@ -14,5 +14,5 @@ Recently, I have been working on a project relevant to Coronavirus-19 (COVID-19)
 
 Apparently, this website is just established, and the words are funny and away from serious. Hope I have time to improve it in the foreseeable future. Please do not hesitate to contact me if you have any suggestions.
 
-One of my recent focus is on reading thesis of Guy Lebanon, Ph.D. from MIT, Riemannian Geometry and Statistical Machine Learning. As a plan, I will make some slides every two weeks starting from 26th, January, 2021. For those who are interested, you can find these [slides](/riegeostatml/) here. 
+One of my recent focus is on reading thesis of Guy Lebanon, a Ph.D. graduated from MIT, [Riemannian Geometry and Statistical Machine Learning](https://www.cs.cmu.edu/~lebanon/pub/thesis/thesis.pdf). As a plan, I will make some slides every two weeks starting from 26th, January, 2021. For those who are interested, you can find these [slides](/riegeostatml/) here. 
 

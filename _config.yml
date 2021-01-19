@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Hengchao Chen"
   avatar           : "Hefei.jpg"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Hengchao Chen (Archer) is a first-year Ph.D. student in Statisitcs. His research interests include data science, distributed learning, high-dimensional statistics, optimization, information geometry. Besides, he likes hip-hop dancing."
   location         : "Zhejiang, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  email            : "chenhc001@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

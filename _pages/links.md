@@ -14,7 +14,7 @@ author_profile: true
 * [UCI](http://archive.ics.uci.edu/ml/)
 * [R packages](https://www.rdocumentation.org/)
 * Some people's homepages: [Junyan Zhang](https://www.zhangjy9610.me/index-cn.html), [Weiyu Li](http://home.ustc.edu.cn/~liweiyu/index.html).
-* You can find the [tempate](https://academicpages.github.io/) of this personal website here.
+* You can find the [tempate](https://academicpages.github.io/) of this website here.
 
 
 <!--* [Jeffrey S. Rosenthal's Homepage](http://probability.ca/jeff/)-->

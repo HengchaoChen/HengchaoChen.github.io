@@ -7,7 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<font size = 2>
   
 I am a boy who just struggled to graduate from the University of Science and Technology of China in 2020. Fortunately and somewhat unfortunately, I am going to pursue a Ph.D. degree in Statistics in Zoom University, China. My research interests include data science, distributed learning, high-dimensional statistics, optimization, information geometry. These are just research interests since publications do not exist right now. <br>
 

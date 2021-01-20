@@ -14,7 +14,6 @@ Recently, I have been working on a project relevant to Coronavirus-19 (COVID-19)
 
 Apparently, this website is just established, and the words are funny and away from serious. Hope I have time to improve it in the foreseeable future. Please do not hesitate to contact me if you have any suggestions.
 
-***
 ## Recent Focuses:
 * reading thesis of Guy Lebanon, a Ph.D. graduated from CMU, [Riemannian Geometry and Statistical Machine Learning](https://www.cs.cmu.edu/~lebanon/pub/thesis/thesis.pdf). As a plan, I will make some slides every two weeks starting from 26th, January, 2021. For those who are interested, you can find these [slides](/riegeostatml/) here. 
 * listening to others' presentation on the Jerry Li's Ph.D. thesis [Principled Approaches to Robust Machine Learning and Beyond](https://jerryzli.github.io/robust-ml-fall19.html).

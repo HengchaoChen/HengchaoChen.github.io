@@ -5,6 +5,7 @@ title: "Some Useful Links"
 author_profile: true
 ---
 
+* [R markdown Reference](files/rmarkdown-reference.pdf)
 * [School of Mathematical Sciences, USTC](http://math.ustc.edu.cn/)
 * [LibGen](http://libgen.rs/), [Springer](https://www.springer.com/)  
 * [R packages](https://www.rdocumentation.org/)

@@ -12,5 +12,6 @@ This page is for the collection of my (future) slides in reading the thesis. Sta
 ### Slides (Press 'A' if it displays strange. Sorry! I am trying to figure a better way out.)
 
 - [Week 1](/riegeostatml_week1/)
+- <html><body><p><a href="/riegeostatml_week1/"  target="_blank">Week 1</a></p></body></html>
 
 

@@ -9,6 +9,7 @@ This series of readings is based on Guy Lebanon's Ph.D. thesis [Riemannian Geome
 
 This page is for the collection of my (future) slides in reading the thesis. Starting from 26th, January, 2021, I will upload one slide below every two weeks. Hope some of you may find it useful or interesting.
 
-- [Week 1](/riegeostatml_week1/)
+### Slides：
+- Week 1:</riegeostatml_week1/>
 
 

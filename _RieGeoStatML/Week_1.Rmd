@@ -1,0 +1,245 @@
+---
+title: "Readings: Riemannian Geometry and Statistical Machine Learning"
+subtitle: "Week 1"
+author: "Presenter: Hengchao Chen"
+date: "2021/1/20"
+output: 
+  beamer_presentation:
+    toc : FALSE
+    slide_level : NULL
+    number_sections : FALSE
+    incremental : FALSE
+    fig_width : 10
+    fig_height : 7
+    fig_crop : TRUE
+    fig_caption : TRUE
+    dev : "pdf"
+    df_print : "default"
+    theme : "default"
+    colortheme : "default"
+    fonttheme : "default"
+    highlight : "default"
+    template : "default"
+    keep_tex : FALSE
+    keep_md : FALSE
+    latex_engine : "pdflatex"
+    citation_package : "natbib"
+    self_contained : TRUE
+    includes : NULL
+    md_extensions : NULL
+    pandoc_args : NULL
+  fontsize:12pt
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1 
+There are two fundamental spaces in machine learning:
+
+* data space $\mathcal{X}$
+  + $\mathcal{X}$ in the generative case
+  + $\mathcal{X}\times\mathcal{Y}$ in the discriminative case
+
+> Note: in the supervised case, we focus on the classification setting, where $\mathcal{Y}=\{y_1,\cdots,y_k\}$ is a finite set. By this, we mean
+\begin{align}
+\mathcal{X}\times\mathcal{Y} = \mathcal{X}\times\cdots\times\mathcal{X} = \mathcal{X}^k
+\end{align}
+has the product geometry over $\mathcal{X}$. Therefore, this thesis only study the data spaces of $\mathcal{X}$.
+
+* model space $\Theta$
+  + $\{p(x;\theta):\theta\in\Theta\}$ in the generative case
+  + $\{p(y|x;\theta):\theta\in\Theta\}$ in the discriminative case
+
+**What are Learning algorithms?** Learning algorithms select a model $\theta\in\Theta$ based on a training sample $\{x_i\}_{i=1}^n\subset\mathcal{X}$ in the generative case or $\{(x_i,y_i)\}_{i=1}^n\subset\mathcal{X}\times\mathcal{Y}$ in the discriminative case.
+
+## 2
+**Data and model spaces are rarely Euclidean spaces.** (not vector spaces)
+
+* data space $\mathcal{X}$:
+  + the representation of text documents as vectors
+  + images $I$
+* model space $\mathcal{\Theta}$:
+  + normal, exponential, Dirichlet or multinomial, as well as the set of non-negative, normalized distribution
+
+The Euclidean geometry is thus artificial on most data and model spaces. 
+
+**Using Riemannian Geometry to model the geometries of $\mathcal{X}$ and $\Theta$.** 
+
+Despite most data and model spaces are not Euclidean, they are **smooth** and **locally Euclidean**. Manifolds are the natural generalization of Euclidean spaces to locally Euclidean spaces, smooth manifolds are their smooth counterparts, and Riemannian manifolds are smooth manifolds with a geometric structure called the Riemannian metric. 
+
+**Purposes:**  
+**statistical learning algorithms --------- geometries of $\mathcal{X}$ and $\Theta$.**
+
+## 3
+Topics involved:
+
+1. geometry of the spaces $\Theta$ of the conditional models underlying the algorithms logistic regression and AdaBoost
+2. generalization of the theorems of Cencov and Campbell to the conditional models
+3. an embedding principle to obtain a natural geometry on the data space $\mathcal{X}$
+4. new algorithm: generalization of radial basis kernel by the diffusion kernels on manifolds
+5. new algorithm: generalization of linear classifiers to non-Euclidean geometries, specifically, the multinomial analogue of logistic regression
+6. metric learning based on a given data set
+
+The first 5 parts are based on Fisher information geometry, the only natural geometry in the sense of the Cencov's theorem. The last part is an adaptive method. For a given data set $\{x_1,\cdots,x_n\}\subset\mathcal{X}$, it may be possible to induce a geometry that is better suited for it.
+
+By studying geometry of data/model spaces, we may get insights of some algorithms and design new algorithms that outperform the existing ones.
+
+## 4
+**What is Fisher information geometry?** On a space of statistical models $\Theta\subset\mathbb{R}^n$, we set the **Fisher information metric** $g_{\theta}(u,v),\theta\in\Theta$ to be the Fisher information $\mathcal{J}_{\theta}(u,v)$
+\begin{align}
+\mathcal{J}_{\theta}(u,v)\overset{\text{def}}{=}\sum_{i=1}^n\sum_{j=1}^nu_iv_j\int p(x;\theta)\frac{\partial}{\partial\theta_i}\log p(x;\theta)\frac{\partial}{\partial\theta_j}\log p(x;\theta)dx,
+\end{align}
+where the above integral is replaced with a sum if $\mathcal{X}$ is discrete. Note: only defined for model spaces $\Theta$.
+
+**Compare with Euclidean metric:** The Euclidean geometry on $\mathcal{X}=\mathbb{R}^n$ is achived by setting the local metric $g_x(u,v),x\in\mathcal{X}$ to be the Euclidean inner product
+\begin{align}
+g_x(u,v)\overset{\text{def}}{=}<u,v>\overset{\text{def}}{=}\sum_{i=1}^nu_iv_i.
+\end{align}
+
+**Why is Fisher information geometry unique?**
+The Cencov's theorem states that the Fisher information metric is the only Riemannian metric that is preserved under basic probabilistic transformations, called congruent embedding by a Markov morphism, which represent transformations of the event space that is equivalent to extracting a sufficient statistic.
+
+## 5
+[Introduction to Smooth Manifolds, John M.Lee](https://link.springer.com/book/10.1007/978-1-4419-9982-5) is a good introduction to the smooth manifold, while [Riemannian Geometry, do Carmo](https://link.springer.com/book/10.1007%2F978-3-642-18855-8) is a classical textbook in Riemannian geometry. 
+
+**Definition (Topological Manifold).** We say a topological space $M$ is a topological manifold of dimension $n$ if $M$ is Hausdorff, second countable, and locally Euclidean of dimension $n$.
+
+A **coordinate chart on $M$** is a pair $(U,\varphi)$, where $U$ is an open subset of $M$ and $\varphi:U\to\varphi(U)$ is a homeomorphism from $U$ to an open subset $\widetilde{U}=\varphi(U)\subset\mathbb{R}^n$. 
+
+**Definition ($C^{\infty}$ compatible).** Two coordinate charts $(U,\varphi)$ and $(V,\psi)$ are called $C^{\infty}$ compatible if $U\cap V$ nonempty implies that $\psi\circ\varphi^{-1}$ is a diffeomorphism from $\varphi(U\cap V)$ to its image.
+
+**Definition (Smooth Structure).** A smooth structure on a manifold $M$ is a family $\mathcal{U}=(U_{\alpha},\varphi_{\alpha})$ of coordinate charts such that
+
+- $U_{\alpha}$ cover $M$
+- $(U_{\alpha},\varphi_{\alpha})$ and $(U_{\beta},\varphi_{\beta})$ are $C^{\infty}$ compatible for any $\alpha$, $\beta$
+- it is maximal, i.e., any coordinate chart $(V,\psi)$ that is $C^{\infty}$ compatible with all $(U_{\alpha},\phi_{\alpha})$ is in $\mathcal{U}$
+
+
+
+## 6
+A **smooth manifold $M$** is a topological manifold with a smooth structure. 
+
+Examples of smooth manifolds include:
+
+- Euclidean spaces, smooth curves and surfaces in Euclidean spaces. 
+- n-sphere $\mathbb{S}^n\overset{\text{def}}{=}\{x\in\mathbb{R}^{n+1}:\sum_{i=1}^{n+1}x_i^2=1\}$.
+- positive orthant of the n-sphere $\mathbb{S}^n_+\overset{\text{def}}{=}\{x\in\mathbb{R}^{n+1}:\sum_{i=1}^{n+1}x_i^2=1,\ x_i\geq0\}$.
+- n-simplex $\mathbb{P}_n\overset{\text{def}}{=}\{x\in\mathbb{R}^{n+1}:\sum_{i=1}^{n+1}x_i=1,\ x_i>0\}$.
+
+A **smooth manifold with boundary** is defined similarly in [Introduction to Smooth Manifolds, John M.Lee](https://link.springer.com/book/10.1007/978-1-4419-9982-5). 
+
+Examples include the upper half plane $\mathbb{H}^n\overset{\text{def}}{=}\{x\in\mathbb{R}^n:x_n\geq 0\}$.
+
+## 7
+
+**Definition (Smooth functions).** A continuous function $f:M\to\mathbb{R}$ is said to be $C^{\infty}$ differentiable if for every chart $(U,\varphi)$ the function $f\circ\varphi^{-1}\in C^{\infty}(\mathbb{R}^n,\mathbb{R})$. We use $C^{\infty}(M)$ to denote the sets of all smooth functions on $M$.
+
+**Definition (Smooth mappings).** A continuous mapping between two differentiable manifolds $f:M\to N$ is said to be $C^{\infty}$ differentiable if $\forall r\in C^{\infty}(N,\mathbb{R}),\ r\circ f\in C^{\infty}(M,\mathbb{R})$. We use $C^{\infty}(M,N)$ to denote the sets of all smooth mappings from $M$ to $N$.
+
+A **diffeomorphism** between two maifolds $M,N$ is a bijection $f:M\to N$ such that $f,f^{-1}\in C^{\infty}(M)$.
+
+**Definition (Tangent Bundles).** Let $p$ be a point on a manifold $M$. A tangent vector at $p$ is a linear map $X_p:C^{\infty}(M)\to\mathbb{R}$ satisfying the product rule, i.e. 
+\begin{align}
+X_p(fg)=X_p(f)g(p)+f(p)X_p(g),
+\end{align}
+for any $f,g\in C^{\infty}(M)$. The tangent space to $M$ at $p$ is the collection of all tangent vectors at $p$, denoted by $T_pM$. The tangent bundle of $M$, denoted by $TM$, is the disjoint union of the tangent spaces at all points of $M$:
+\begin{align}
+TM=\prod_{p\in M}T_pM.
+\end{align}
+One can show that $TM$ has a natural structure as a smooth manifold in its own right.
+
+## 8
+**Definition (Push-forward).** If $M$ and $N$ are smooth manifolds and $F:M\to N$ is a smooth map, then for each $p$ we define a map $F_*:T_pM\to T_{F(p)}N$, called the push-forward associated with $F$, by 
+\begin{align}
+(F_*X)(f)=X(f\circ F).
+\end{align}
+
+**Proposition (Local representation of the tangent space).** For each point $p$ on a smooth manifold $M$, the tangent space $T_pM$ is a vector space of dimension $n$. Given a coordinate chart $(U,\varphi)$ around $p$, we can naturally define a set of basis $\left\{\partial_i,i=1,\cdots,n\right\}$ of the tangent space $T_pM$ by
+\begin{align}
+\partial_i=(\varphi^{-1})_*\frac{\partial}{\partial x^i}\large|_{\varphi(p)}.
+\end{align}
+
+**Definition (Tangent Vector Field).** A smooth tangent vector field $X$ on $M$ is a smooth assignment of tangent vectors to each point of $M$. More precisely, a vector field $X$ maps each point $p$ to a tangent vector $X_p\in T_pM$. Then for any function $f\in C^{\infty}(M)$ we can define the action of $X$ on $f$ as 
+\begin{align}
+Xf:M\to\mathbb{R},\ (Xf)(p)=X_p(f).
+\end{align}
+The smoothness in the definition is in the sense that $\forall f\in C^{\infty}(M),Xf\in C^{\infty}(M)$.
+
+## 9
+In many cases the $n$-manifold $M$ is a submanifold of a $m$-dimenisonal manifold $N$, $m\geq n$. Specifically, when $N=\mathbb{R}^m$, the tangent space $T_xM$ of the submanifold is a vector subspace of $T_x\mathbb{R}^m\cong\mathbb{R}^m$ and we may represent a tangent vector $v\in T_xM$ in the standard basis $\{\partial_i\}_{i=1}^m$ of the embedding tangent space $T_x\mathbb{R}^m$ as $v=\sum_{i=1}^mv_i\partial_i$. For example, for the simplex and the sphere we have
+\begin{align}
+T_x\mathbb{P}_n=\left\{v\in\mathbb{R}^{n+1}:\sum_{i=1}^{n+1}v_i=0\right\},\qquad T_x\mathbb{S}^n=\left\{v\in\mathbb{R}^{n+1}:\sum_{i=1}^{n+1}v_ix_i=0\right\}.
+\end{align}
+
+<center><img src="C:/Users/asus-pc/Desktop/2021 S/Rie Geo & Stat ML/Pre & Slides/images/tangent_vector.png" width=60% height=60%/></center>
+
+## 10
+**Definition (Riemannian Manifold).** A Riemannian manifold $(M,g)$ is a smooth manifold $M$ equipped with a Riemannian metric $g$. The metric $g$ is defined by a local inner product on tangent vectors
+\begin{align}
+g_x(\cdot,\cdot):T_xM\times T_xM\to\mathbb{R},\ x\in M,
+\end{align}
+that is symmetric, bi-linear, and positive definite, and is also smooth in $x$.
+
+One can define the **length of a smooth curve** $\gamma:[a,b]\to M$ by 
+\begin{align}
+L(\gamma)=\int_a^b\sqrt{g_x(\dot{\gamma}(t),\dot{\gamma}(t))}dt,
+\end{align}
+where $\dot{\gamma}(t)=\gamma_*(\frac{d}{dt})$ is the velocity vector of the curve $\gamma$ at time $t$. Then one can define the distance $d_g(x,y)$ between two points $x,y\in M$ as 
+\begin{align}
+d_g(x,y)=\inf_{\gamma\in\Gamma(x,y)}\int_a^b\sqrt{g_x(\dot{\gamma}(t),\dot{\gamma}(t))}dt,
+\end{align}
+where $\Gamma(x,y)$ is the set of piecewise smooth curves connecting $x$ and $y$. The distance is called **geodesic distance** and the minimal curve achieving it is called a **geodesic curve**.
+
+## 11
+**Definition (Pull-back metric).** Given a Riemannian manifold (N,h) and a diffeomorphism $f:M\to N$, we define a metric $f^*h$ on $M$ called the pull-back metric by 
+\begin{align}
+(f^* h)_x(u,v)=h_{f(x)}(f_* u,f_* v).
+\end{align}
+
+**Definition (Isometry).** An isomorphism is a diffeomorphism $f:M\to N$ between two Riemannian manifolds $(M,g),(N,h)$ for which 
+\begin{align}
+g_x(u,v)=(f*h)_x(u,v),\ \forall x\in M,\ \forall u,v\in T_xM.
+\end{align} 
+Two Riemannian manifolds are called isometric if there exist an isomorphism between them.
+
+## 12
+**Fisher geometries of spaces of probability models** --- A few important examples:
+
+- finite dimensional non-parametric space
+- finite dimensional conditional non-parametric space
+- spherical normal space
+
+**Finite non-parametric / parametric space of the multinomial family.** In finite non-parametric setting, the event $\mathcal{X}$ is a finite set with $|\mathcal{X}|=n$ and $\Theta=\mathbb{P}_{n-1}$, which represents the manifold of all positive probability models over $\mathcal{X}$. If zero probabilities are admitted, the appropriate framework for the parameter space $\Theta=\overline{\mathbb{P}_{n-1}}$ is a manifold with corners (Lee, 2002). Note that the above space $\Theta$ is precisely the parametric space of the multinomial family.
+
+
+
+## 13
+
+
+## 14
+
+
+## 15
+
+
+## 16
+
+
+## 17
+
+
+## 18
+
+
+## 19
+
+
+## 20
+
+
+## 21
+
+
+

@@ -17,6 +17,9 @@ Archer Hengchao Chen is a first-year Ph.D. student in statistics at the Universi
 * A seminar-type course [Minimizing Expectation](https://www.cs.toronto.edu/~cmaddis/courses/sta4273_w21/).
 * Listening to presentations on [Principled Approaches to Robust Machine Learning and Beyond](https://jerryzli.github.io/robust-ml-fall19.html), a Ph.D. thesis by Jerry Li, MIT.
 * Listening to presentations on [Spectral Methods for Data Science: A Statistical Perspective](https://arxiv.org/pdf/2012.08496.pdf). 
+* Learning R for data science - course work.
+* Learning some statistical theories - course work.
+
 
 ## News
 

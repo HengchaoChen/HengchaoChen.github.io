@@ -5,7 +5,7 @@ permalink: /links/
 author_profile: true
 ---
 
-* Institution links: [School of Mathematical Sciences, USTC](http://math.ustc.edu.cn/), [Department of Statistical Sciences, Utoronto](https://www.statistics.utoronto.ca/), [Department of Computer Science](https://web.cs.toronto.edu/about/our-department).
+* Institution links: [School of Mathematical Sciences, USTC](http://math.ustc.edu.cn/), [Department of Statistical Sciences, Utoronto](https://www.statistics.utoronto.ca/), [Department of Computer Science, UToronto](https://web.cs.toronto.edu/about/our-department).
 * You can download monographs through [LibGen](http://libgen.rs/), [Springer](https://www.springer.com/), download papers through [Arxiv](https://arxiv.org/), [MathSciNet](http://www.ams.org/mathscinet/), [ASA](http://www.amstat.org/), [JSTOR](http://www.jstor.org/), [JASA](http://www.tandfonline.com/action/showAxaArticles?journalCode=uasa20#), [JRSS-B](http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1467-9868), [Biometrika](http://biomet.oxfordjournals.org/), [Bernoulli](http://www.bernoulli-society.org/index.php/publications/bernoulli-journal/bernoulli-journal), [IMS AOS](http://imstat.org/aos).  
 * Some online advices to Ph.D. students: [the 1st](http://www-stat.wharton.upenn.edu/~steele/Rants/AdviceGS.html), [the 2nd](http://www.cs.cmu.edu/~mblum/research/pdf/grad.html).
 * R: 

@@ -5,9 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Journals
+## Journal
 
-## Conferences
+## Conference
 Hope I can have one as soon as possible~
 
 <!--

@@ -6,9 +6,10 @@ author_profile: true
 ---
 
 ## Journal
+None.
 
 ## Conference
-Hope I can have one as soon as possible~
+None, either. Hope I can have one as soon as possible~
 
 <!--
 {% if author.googlescholar %}

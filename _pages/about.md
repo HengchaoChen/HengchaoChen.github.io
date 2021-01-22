@@ -18,5 +18,6 @@ Archer Hengchao Chen is a first-year Ph.D. student in statistics at the Universi
 * Listening to presentations on [Principled Approaches to Robust Machine Learning and Beyond](https://jerryzli.github.io/robust-ml-fall19.html), a Ph.D. thesis by Jerry Li, MIT.
 * Listening to presentations on the paper [Spectral Methods for Data Science: A Statistical Perspective](https://arxiv.org/pdf/2012.08496.pdf). 
 
+## News
 
 

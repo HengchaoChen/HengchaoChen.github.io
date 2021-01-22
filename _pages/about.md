@@ -1,7 +1,7 @@
 ---
 permalink: /
 excerpt: "About me"
-title: "Welcome to Archer Hengchao Chen's Homepage! (陈恒超)"
+title: "Welcome to Hengchao Chen's Homepage! (陈恒超)"
 author_profile: true
 redirect_from: 
   - /about/

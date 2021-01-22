@@ -1,11 +1,11 @@
 ---
 layout: archive
-title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-Hope I can have one ASAP.
+## Publications
+Hope I can have one as soon as possible~
 
 <!--
 {% if author.googlescholar %}

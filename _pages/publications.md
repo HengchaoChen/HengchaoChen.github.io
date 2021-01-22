@@ -1,10 +1,13 @@
 ---
 layout: archive
+title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-## Publications
+## Journals
+
+## Conferences
 Hope I can have one as soon as possible~
 
 <!--

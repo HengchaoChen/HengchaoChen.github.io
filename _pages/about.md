@@ -11,7 +11,7 @@ redirect_from:
 ## Biography
 Archer Hengchao Chen is a first-year Ph.D. student in statistics at the University of Toronto. He received his BSc degree in Mathematics and Applied Mathematics from the University of Science and Technology of China. His research interests include data science, high-dimensional statistics, distributed learning, optimization, and manifold learnig. 
 
-### Recent Focuses:
+## Recent Focuses:
 * Conducting [a retrospective study of COVID-19 re-outbreaks](https://github.com/HengchaoChen/Covid-19). PS: the github repository is currently private.
 * Reading and presenting [Riemannian Geometry and Statistical Machine Learning](https://www.cs.cmu.edu/~lebanon/pub/thesis/thesis.pdf), a Ph.D. thesis written by Guy Lebanon, CMU. [More information](/riegeostatml/) can be found here.
 * Auditing an interesting seminar-type course [Minimizing Expectation](https://www.cs.toronto.edu/~cmaddis/courses/sta4273_w21/).

@@ -21,6 +21,7 @@ Archer Hengchao Chen is a first-year Ph.D. student in statistics at the Universi
   + Learning R for data science - [applied statistics](https://github.com/MJAlexander/applied-stats-2021).
   + Learning some statistical theories.
   + A seminar-type course [Minimizing Expectation](https://www.cs.toronto.edu/~cmaddis/courses/sta4273_w21/).
+* Running! 5KM everyday!
 
 ## News
 

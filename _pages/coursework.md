@@ -7,11 +7,11 @@ author_profile: true
 
 ## Applied Statistics
 - Course website is [https://github.com/MJAlexander/applied-stats-2021](https://github.com/MJAlexander/applied-stats-2021).
-- [Data Analysis Using Regression and Multilevel-Hierarchical Models, Andrew Gelman_ Jennifer Hill](https://link.springer.com/content/pdf/10.1007%2Fs00362-010-0311-z.pdf)
-- [An Introduction to Generalized Linear Models, Annette J. Dobson_ Adrian G Barnett](https://link.springer.com/article/10.1007/s00362-011-0375-4)
-- [Bayesian Data Analysis, Andrew Gelman, John B. Carlin, Hal S. Stern, Donald B. Rubin](https://b-ok.cc/book/1306313/92e86d)
-- [R for Data Science_ Import, Tidy, Transform, Visualize, and Model Data, Hadley Wickham, Garrett Grolemund](https://b-ok.cc/book/2850613/b8f661?dsource=recommend)
-- [The Elements of Statistical Learning: Data Mining, Inference, and Prediction, Trevor Hastie, Robert Tibshirani, Jerome Friedman](https://web.stanford.edu/~hastie/ElemStatLearn/)
+- [Data Analysis Using Regression and Multilevel-Hierarchical Models](https://link.springer.com/content/pdf/10.1007%2Fs00362-010-0311-z.pdf), Andrew Gelman_ Jennifer Hill.
+- [An Introduction to Generalized Linear Models](https://link.springer.com/article/10.1007/s00362-011-0375-4), Annette J. Dobson_ Adrian G Barnett.
+- [Bayesian Data Analysis](https://b-ok.cc/book/1306313/92e86d), Andrew Gelman, John B. Carlin, Hal S. Stern, Donald B. Rubin.
+- [R for Data Science_ Import, Tidy, Transform, Visualize, and Model Data](https://b-ok.cc/book/2850613/b8f661?dsource=recommend), Hadley Wickham, Garrett Grolemund.
+- [The Elements of Statistical Learning: Data Mining, Inference, and Prediction](https://web.stanford.edu/~hastie/ElemStatLearn/), Trevor Hastie, Robert Tibshirani, Jerome Friedman.
 
 ### Topics:
 - Nonlinear Regression

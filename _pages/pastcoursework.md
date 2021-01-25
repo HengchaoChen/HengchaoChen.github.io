@@ -35,5 +35,7 @@ author_profile: true
 
 ## Applied Probability for Mathematical Finance
 - [Notes: Pricing Theory](/PricingTheoryNotes/)
+
+### Topics:
 - Derivative, FTAP, Dynamic Hedging, Numeraire Change
 - American Option, Delta/Delta-Gamma hedging, Interest Rate Model & Swaption, Heston Model

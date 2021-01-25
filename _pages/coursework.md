@@ -14,4 +14,5 @@ author_profile: true
 ## Probability
 
 ## Theory of Statistics
+- Sub-Gaussian, Sub-Exponential
 

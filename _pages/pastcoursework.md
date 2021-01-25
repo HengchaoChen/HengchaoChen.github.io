@@ -34,5 +34,6 @@ author_profile: true
 - Extended Linear Model
 
 ## Applied Probability for Mathematical Finance
+- [Notes: Pricing Theory](/PricingTheoryNotes/)
 - Derivative, FTAP, Dynamic Hedging, Numeraire Change
 - American Option, Delta/Delta-Gamma hedging, Interest Rate Model & Swaption, Heston Model

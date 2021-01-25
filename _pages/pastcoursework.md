@@ -10,9 +10,9 @@ author_profile: true
 
 ## Theory of Statistics, Asymptotic Statistics
 - [All of Statistics - A Concise Course in Statistical Inference](https://www.springer.com/gp/book/9780387402727), Larry Wasserman.
-- [All of Nonparametric Statistics](https://link.springer.com/book/10.1007/0-387-30623-4)
+- [All of Nonparametric Statistics](https://link.springer.com/book/10.1007/0-387-30623-4).
 - [Theory of Point Estimation](https://www.springer.com/gp/book/9780387985022), E.L. Lehmann, George Casella.
-- [Asymptotic Statistics](https://www.cambridge.org/core/books/asymptotic-statistics/A3C7DAD3F7E66A1FA60E9C8FE132EE1D)
+- [Asymptotic Statistics](https://www.cambridge.org/core/books/asymptotic-statistics/A3C7DAD3F7E66A1FA60E9C8FE132EE1D).
 - [High dimensional statistics - a non-asymptotic viewpoint](https://b-ok.cc/book/3709600/589a72), Martin J. Wainwright.
 
 ### Topics:
@@ -35,7 +35,7 @@ author_profile: true
 - Extended Linear Model
 
 ## Applied Probability for Mathematical Finance
-- [Notes: Pricing Theory](/PricingTheoryNotes/)
+- [Notes: Pricing Theory](/PricingTheoryNotes/).
 
 ### Topics:
 - Derivative, FTAP, Dynamic Hedging, Numeraire Change

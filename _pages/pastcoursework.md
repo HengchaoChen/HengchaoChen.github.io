@@ -24,6 +24,7 @@ author_profile: true
 - Contiguity, Efficiency, Relative Efficiency
 
 ## Applied Statistics
+- Course website is [https://utstat.toronto.edu/reid/html/sta/sta2101f.html](https://utstat.toronto.edu/reid/html/sta/sta2101f.html).
 - [Statistical Models, A. C. Davison](https://b-ok.cc/book/1209087/93f989)
 - [Principles of Applied Statistics, D. R. Cox, Christl A. Donnelly](https://b-ok.cc/book/1203616/839efa)
 - [Linear Models with R, Julian J. Faraway](https://julianfaraway.github.io/faraway/LMR/)

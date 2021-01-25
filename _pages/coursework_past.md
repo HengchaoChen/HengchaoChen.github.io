@@ -1,5 +1,5 @@
 ---
-permalink: /pastcoursework/
+permalink: /coursework_past/
 layout: archive
 title: Past Courses
 author_profile: true

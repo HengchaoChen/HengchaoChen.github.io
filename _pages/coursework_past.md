@@ -29,7 +29,7 @@ author_profile: true
 - [Statistical Models](https://b-ok.cc/book/1209087/93f989), A. C. Davison.
 - [Principles of Applied Statistics](https://b-ok.cc/book/1203616/839efa), D. R. Cox, Christl A. Donnelly.
 - [Linear Models with R](https://julianfaraway.github.io/faraway/LMR/), Julian J. Faraway.
-- [Extending the Linear Model with R](https://julianfaraway.github.io/faraway/ELM/), Faraway J..
+- [Extending the Linear Model with R](https://julianfaraway.github.io/faraway/ELM/), J. Faraway.
 
 ### Topics:
 - Linear Model

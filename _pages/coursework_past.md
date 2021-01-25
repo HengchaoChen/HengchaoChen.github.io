@@ -5,6 +5,8 @@ title: Past Courses
 author_profile: true
 ---
 
+Here are some [basic concepts](/concepts/) that are constantly encountered in the career.
+
 ## Probability
 - [Probability: Theory and Examples](https://services.math.duke.edu/~rtd/PTE/PTE5_011119.pdf), Durrett.
 - [Probability and Measure](https://book.douban.com/subject/1650731/), Partrick Billingsley.

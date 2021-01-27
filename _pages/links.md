@@ -18,7 +18,7 @@ author_profile: true
 * [Tempate of this personal website](https://academicpages.github.io/).
 
 ## Topics
-- [RL](https://www.zhihu.com/column/reinforce)
+- [Reinforcement Learning](https://www.zhihu.com/column/reinforce)
 - [Large-Scale Learning](http://leon.bottou.org/publications/pdf/tr-optml-2016.pdf)
 - Manifold Learning
 - [Varational Inference](https://arxiv.org/abs/1601.00670)

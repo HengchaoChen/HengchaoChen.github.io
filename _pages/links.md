@@ -24,6 +24,8 @@ author_profile: true
 - [Varational Inference](https://arxiv.org/abs/1601.00670)
 - [High-dimensional Statistics](https://b-ok.cc/book/3709600/589a72)
 
+## Topics in Mathematical Finance
+
 ## Applications
 - Text classification
 - Speech and image recognition

@@ -29,6 +29,7 @@ author_profile: true
 ## Applications
 - Text classification
 - Speech and image recognition
+- Robotics
 
 ## Records
 * Some of [Ongoing Courses](/coursework/).

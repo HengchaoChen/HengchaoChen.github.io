@@ -35,4 +35,6 @@ author_profile: true
 * Some of [Ongoing Courses](/coursework/).
 * Some of [Past Courses](/coursework_past/).
 
+## Some Words
+- Find simple models that works well!
 

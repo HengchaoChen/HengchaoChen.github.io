@@ -19,7 +19,7 @@ author_profile: true
 
 ## Topics
 - [RL](https://www.zhihu.com/column/reinforce)
-- [Optimization](http://leon.bottou.org/publications/pdf/tr-optml-2016.pdf)
+- [Large-Scale Learning](http://leon.bottou.org/publications/pdf/tr-optml-2016.pdf)
 - Manifold Learning
 - [Varational Inference](https://arxiv.org/abs/1601.00670)
 - [High-dimensional Statistics](https://b-ok.cc/book/3709600/589a72)

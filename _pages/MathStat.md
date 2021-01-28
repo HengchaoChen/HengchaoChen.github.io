@@ -7,7 +7,8 @@ author_profile: true
 
 ## [Mathematical Statistics](https://b-ok.cc/book/4986212/b64cdd)
 - Data and Model
-- Parametrization - identifiable
+- Parametrization - identifiable model
+- Statistics - functions on the sample space
 
 ## Applied Statistics:
 - Data Explore Analysis (DEA)

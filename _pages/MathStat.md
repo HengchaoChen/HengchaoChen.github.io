@@ -12,7 +12,7 @@ author_profile: true
 ## Applied Statistics:
 - Data Explore Analysis (DEA)
 - Model
-- Estimate
+- Model Fit (Estimate)
 - Model Check
 - Inference and Interpret
 - Communications

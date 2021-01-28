@@ -16,6 +16,7 @@ author_profile: true
 * [Yau Contest](http://yau-contest.com/).
 * Some people's homepages: [Junyan Zhang](https://www.zhangjy9610.me/index-cn.html), [Weiyu Li](http://home.ustc.edu.cn/~liweiyu/index.html), [Jeffrey S. Rosenthal](http://probability.ca/jeff/).
 * [Tempate of this personal website](https://academicpages.github.io/).
+* Download: [Anaconda](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)
 
 ## Topics
 - [Reinforcement Learning](https://www.zhihu.com/column/reinforce): [RL Theory and Algorithms](https://rltheorybook.github.io/), [RLBOOK, Sutton](http://incompleteideas.net/book/the-book.html)

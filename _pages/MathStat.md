@@ -5,5 +5,14 @@ permalink: /mathstat/
 author_profile: true
 ---
 
+## [Mathematical Statistics](https://b-ok.cc/book/4986212/b64cdd)
 - Data and Model
-- Parametrization - identiable
+- Parametrization - identifiable
+
+## Applied Statistics:
+- Data Explore Analysis (DEA)
+- Model
+- Estimate
+- Model Check
+- Inference and Interpret
+- Communications

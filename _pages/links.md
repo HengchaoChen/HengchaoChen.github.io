@@ -34,6 +34,7 @@ author_profile: true
 ## Records
 * Some of [Ongoing Courses](/coursework/).
 * Some of [Past Courses](/coursework_past/).
+* Basics of [Statistics](/mathstat/).
 
 ## Some Words
 - Find simple models that works well!

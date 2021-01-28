@@ -5,12 +5,6 @@ permalink: /mathstat/
 author_profile: true
 ---
 
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {inlineMath: [['$', '$']]},
-        messageStyle: "none"
-    });
-</script>
 
 ## [Mathematical Statistics](https://b-ok.cc/book/4986212/b64cdd):
 - Data and Model

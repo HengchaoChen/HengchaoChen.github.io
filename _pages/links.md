@@ -21,7 +21,7 @@ author_profile: true
 ## Topics
 - [Reinforcement Learning](https://www.zhihu.com/column/reinforce): [RL Theory and Algorithms](https://rltheorybook.github.io/), [RLBOOK, Sutton](http://incompleteideas.net/book/the-book.html)
 - [Large-Scale Learning](http://leon.bottou.org/publications/pdf/tr-optml-2016.pdf)
-- Manifold Learning
+- Manifold Learning, Robust Learning
 - [Varational Inference](https://arxiv.org/abs/1601.00670)
 - [High-dimensional Statistics](https://b-ok.cc/book/3709600/589a72)
 

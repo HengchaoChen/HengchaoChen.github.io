@@ -20,7 +20,7 @@ author_profile: true
 - Communications
 
 ## Bayesian Model:
-- Generative model $p(x|\theta)$
+- Generative model $p(x;\theta)$
 - Prior Distribution $p(\theta)$ of parameter $\theta$
 - Given data $x$
-- Posterior Distribution $p(\theta|x)$ of parameter $\theta$
+- Posterior Distribution $p(\theta;x)$ of parameter $\theta$

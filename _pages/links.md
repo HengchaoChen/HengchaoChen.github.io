@@ -11,5 +11,5 @@ author_profile: true
 * Link to Some People's Homepages: [Junyan Zhang](https://www.zhangjy9610.me/index-cn.html), [Weiyu Li](http://home.ustc.edu.cn/~liweiyu/index.html), [Jeffrey S. Rosenthal](http://probability.ca/jeff/).
 * Link to [Yau Contest](http://yau-contest.com/).  
 
-## Some Words  
+#### Some Words  
 - Find simple models that work well!

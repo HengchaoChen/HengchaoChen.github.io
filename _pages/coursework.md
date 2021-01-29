@@ -16,6 +16,7 @@ author_profile: true
 ### Topics:
 - Nonlinear Regression
 - Generalized Linear Models (GLM)
+- Survival Analysis
 
 
 ## Probability

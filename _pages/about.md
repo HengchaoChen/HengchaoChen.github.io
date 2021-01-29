@@ -21,8 +21,6 @@ Archer Hengchao Chen is a first-year Ph.D. student in statistics at the Universi
 * Courses
 * Running! 5km everyday!
 
-
-
 ## News
 
 

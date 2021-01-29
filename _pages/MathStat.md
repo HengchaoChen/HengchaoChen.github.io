@@ -24,3 +24,6 @@ author_profile: true
 - Prior Distribution $p(\theta)$ of parameter $\theta$
 - Given data $x$
 - Posterior Distribution $p(\theta;x)$ of parameter $\theta$
+
+## Survival Analysis:
+- Time to Failure & Failure or not.

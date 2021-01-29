@@ -18,7 +18,9 @@ There are two fundamental spaces in machine learning: the data space $\mathcal{X
 - [Nonparametric statistics on manifolds and their applications to object data analysis](https://www.researchgate.net/publication/282364732_Nonparametric_Statistics_on_Manifolds_and_Their_Application_to_Object_Data_Analysis), a monograph combining manifolds & nonparametric statistics.
 
 
-*Starting from **January 26, 2021**, I will upload one slide every two weeks. These are .html documents created by *slidy_presentation* in Rmarkdown. **Acquisition Method:** 1. click and download the document, 2. open in the browser: Microsoft Edge or Google Chrome. **More operations:** **C** - show table of contents; **F** - toggle display of the footer; **A** - toggle display of the current vs all slides; **S** - make fonts smaller; **B** - make fonts bigger.*
+*Starting from **January 26, 2021**, I will upload one slide every two weeks. These are .html documents created by *slidy_presentation* in Rmarkdown.  
+**Acquisition Method:** **1.** click and download the document, **2.** open in the browser: Microsoft Edge or Google Chrome.  
+**More operations:** **C** - show table of contents; **F** - toggle display of the footer; **A** - toggle display of the current vs all slides; **S** - make fonts smaller; **B** - make fonts bigger.*
 
 ## Slides:
 - [Week 1](https://raw.githubusercontent.com/HengchaoChen/HengchaoChen.github.io/master/files/riegeostatml/Week_1.zip)

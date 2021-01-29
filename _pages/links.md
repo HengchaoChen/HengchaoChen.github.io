@@ -3,7 +3,6 @@ layout: archive
 title: "Some useful links"
 permalink: /links/
 author_profile: true
-font size: 1
 ---
 
 * Institution links: [School of Mathematical Sciences, USTC](http://math.ustc.edu.cn/), [Department of Statistical Sciences, Utoronto](https://www.statistics.utoronto.ca/), [Department of Computer Science, UToronto](https://web.cs.toronto.edu/about/our-department).

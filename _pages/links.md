@@ -12,4 +12,4 @@ author_profile: true
 * Link to [Yau Contest](http://yau-contest.com/).
 
 ## Some Words
-- Find simple models that works well!
+- Find simple models that work well!

@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /
 excerpt: "About me"
 title: "Welcome to Hengchao Chen's Homepage! (陈恒超)"

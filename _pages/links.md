@@ -12,6 +12,6 @@ author_profile: true
 * Link to [Yau Contest](http://yau-contest.com/).  
 
 # Some Personal Notes
-* Link to [Collections of some Classics in Statistical Theory](https://github.com/HengchaoChen/HengchaoChen.github.io/raw/master/files/Classics_Statistical_Theory.pdf/).
-* Link to [Collections of some Classics in Applied Statistics](https://github.com/HengchaoChen/HengchaoChen.github.io/raw/master/files/Classics_Applied.pdf/).
+* Link to some [Classics in Statistical Theory](https://github.com/HengchaoChen/HengchaoChen.github.io/raw/master/files/Classics_Statistical_Theory.pdf/).
+* Link to some [Classics in Applied Statistics](https://github.com/HengchaoChen/HengchaoChen.github.io/raw/master/files/Classics_Applied.pdf/).
 * Link to [Personal Habits](https://github.com/HengchaoChen/HengchaoChen.github.io/raw/master/files/Habits.pdf).

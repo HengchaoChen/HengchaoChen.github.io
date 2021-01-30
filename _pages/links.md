@@ -12,6 +12,6 @@ author_profile: true
 * Link to [Yau Contest](http://yau-contest.com/).  
 
 # Some Personal Notes
-* Link to [Classical Textbooks in Statistical Theory](/Classics_Statistical_Theory.pdf/)
-* Link to [Classical Textbooks in Statistical Theory](/Classics_Applied.pdf/)
-* Link to [Personal Habits](/Habits.pdf/)
+* Link to [Classical Textbooks in Statistical Theory](/Classics_Statistical_Theory.pdf/).
+* Link to [Classical Textbooks in Statistical Theory](/Classics_Applied.pdf/).
+* Link to [Personal Habits](/Habits.pdf/).

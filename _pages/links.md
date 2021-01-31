@@ -14,4 +14,4 @@ author_profile: true
 # Some Personal Notes
 * Link to some [Classics in Statistical Theory](https://github.com/HengchaoChen/HengchaoChen.github.io/raw/master/files/Classics_Statistical_Theory.pdf/).
 * Link to some [Classics in Applied Statistics](https://github.com/HengchaoChen/HengchaoChen.github.io/raw/master/files/Classics_Applied.pdf/).
-* Link to [Personal Habits](https://github.com/HengchaoChen/HengchaoChen.github.io/raw/master/files/Habits.pdf).
+

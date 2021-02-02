@@ -22,4 +22,4 @@ There are two fundamental spaces in machine learning: the data space $\mathcal{X
 **More operations:** **C** - show table of contents; **F** - toggle display of the footer; **A** - toggle display of the current vs all slides; **S** - make fonts smaller; **B** - make fonts bigger.*
 
 ## Slides:
-- [Week 1](https://raw.githubusercontent.com/HengchaoChen/HengchaoChen.github.io/master/files/riegeostatml/Week_1.zip)
+- [Week 1](https://github.com/HengchaoChen/HengchaoChen.github.io/raw/master/files/riegeostatml/Week_1.zip)

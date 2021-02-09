@@ -23,3 +23,4 @@ There are two fundamental spaces in machine learning: the data space $\mathcal{X
 
 ## Slides:
 - [Week 1](https://github.com/HengchaoChen/HengchaoChen.github.io/raw/master/files/riegeostatml/Week_1.zip)
+- [Week 2](https://github.com/HengchaoChen/HengchaoChen.github.io/raw/master/files/riegeostatml/Week_2.zip)

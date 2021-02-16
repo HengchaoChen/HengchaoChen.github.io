@@ -5,7 +5,7 @@ permalink: /riegeostatml/
 author_profile: true
 ---
 # Readings: Riemannian Geometry and Statistical Machine Learning
-[Riemannian Geometry and Statistical Machine Learning](https://www.cs.cmu.edu/~lebanon/pub/thesis/thesis.pdf) is the Ph.D. thesis of [Guy Lebanon](http://theanalysisofdata.com/), CMU. This pages contain the slides I made after reading the thesis. Starting from Jan 26, 2021, I will upload one slide every two weeks.
+[Riemannian Geometry and Statistical Machine Learning](https://www.cs.cmu.edu/~lebanon/pub/thesis/thesis.pdf) is the Ph.D. thesis of [Guy Lebanon](http://theanalysisofdata.com/), CMU. This pages contain the slides I made after reading the thesis. I will upload one slide every two weeks starting from Jan 26, 2021.
 
 ## Slides:
 - [Week 1](https://github.com/HengchaoChen/HengchaoChen.github.io/raw/master/files/riegeostatml/Week_1.zip)

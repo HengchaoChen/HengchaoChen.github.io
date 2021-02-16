@@ -14,13 +14,7 @@ Archer Hengchao Chen is a first-year Ph.D. student in statistics at the Universi
 
 ## Recent Focuses:
 * Conducting [a retrospective study of COVID-19 re-outbreaks](https://github.com/HengchaoChen/Covid-19). PS: the repository is currently private.
-* Group Meetings
-* Courses
 * Running! 5km everyday!
 
 ## News
-
-## Q&A
-Q. Why can't I download documents?  
-A. Maybe [this](https://blog.csdn.net/q764424567/article/details/107375040) can help you.
 

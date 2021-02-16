@@ -12,6 +12,10 @@ redirect_from:
 ## Biography
 Archer Hengchao Chen is a first-year Ph.D. student in statistics at the University of Toronto. He received his BSc degree in Mathematics and Applied Mathematics from the University of Science and Technology of China. His research interests include data science, high-dimensional statistics, distributed learning, optimization, and manifold learnig. Some hobbies: hiphop dancing, running and traveling.
 
+## Awards
+- Outstanding Graduates of USTC. Outstanding Graduates of Anhui Province, China 2020
+- Guo Yonghuai Scholarship, USTC 2020
+
 ## Recent Focuses:
 * Conducting [a retrospective study of COVID-19 re-outbreaks](https://github.com/HengchaoChen/Covid-19). PS: the repository is currently private.
 * Running! 5km everyday!
